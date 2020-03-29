@@ -2,7 +2,7 @@
 #include "lib001.h"
 using namespace std;
 class a{
-public: a(int bb,int* cc) {
+public: a(int& bb,int* cc) {
         b=&bb;c=cc;
     }
     void print() {
